@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="امکانات آموزشی">
+        <menu>
+            <item
+                android:id="@+id/nav_Library"
+                android:icon="@drawable/ic_book_open"
+                android:title="کتابخانه" />
+            <item
+                android:id="@+id/nav_SampleQuestion"
+                android:icon="@drawable/ic_book_variant"
+                android:title="نمونه سوالات" />
+        </menu>
+    </item>
+
+    <item android:title="امکانات برنامه ریزی تحصیلی">
+        <menu>
+            <item
+                android:id="@+id/nav_EducationalEvents"
+                android:icon="@drawable/ic_calendar_clock"
+                android:title="رویداد های تحصیلی من" />
+
+        </menu>
+    </item>
+
+
+    <item android:title="دیگر امکانات">
+        <menu>
+            <item
+                android:id="@+id/nav_Help"
+                android:icon="@drawable/ic_help_outline_black_24dp"
+                android:title="راهنما" />
+            <item
+                android:id="@+id/nav_Info"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="درباره برنامه" />
+            <item
+                android:id="@+id/nav_Exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="خروج" />
+
+        </menu>
+    </item>
+
+
+
+</menu>

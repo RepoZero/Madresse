@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">مدرسه</string>
+    <string name="Phone_Number">شماره تلفن</string>
+    <string name="Name">نام</string>
+    <string name="Login">ورود</string>
+    <string name="Ok">تایید</string>
+    <string name="VerficationCode">کد تایید</string>
+    <string name="title_activity_home">خانه</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>

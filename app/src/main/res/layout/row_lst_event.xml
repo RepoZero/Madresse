@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_collapseParallaxMultiplier="1.0">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:background="#fff"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+
+        <TextView
+            android:id="@+id/row_lst_event_Txt_Message"
+            style="@style/Txt"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="ثبت نام دانشگاه"
+            android:textSize="25sp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:orientation="horizontal"
+            tools:ignore="RtlHardcoded">
+
+            <ImageView
+                android:id="@+id/row_lst_event_Img_Delete"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:contentDescription=""
+                app:srcCompat="@drawable/ic_delete"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/row_lst_event_Txt_Time"
+                style="@style/Txt"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right|center"
+                android:text="15 مهر 1396 ساعت : 15:30"
+                android:textSize="16sp"
+                tools:ignore="HardcodedText,InefficientWeight,RtlHardcoded" />
+
+            <ImageView
+                android:layout_width="51dp"
+                android:layout_height="match_parent"
+                app:srcCompat="@drawable/ic_calendar_clock"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
